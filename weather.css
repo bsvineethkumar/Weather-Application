@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+.main-container{
+    width: 40%;
+    margin: 0 auto;
+}
+.container{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTbdFjTOf5EsoDbK4To00eMB0GRwI3bT_ou_6WitoxtYB3Ml-zt&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+    font-family: sans-serif;
+    color: white;
+}
+.section, .post{
+    padding: 5px;
+    font: 20px  "nunito sans" ,sans-serif;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+.btn{
+    width: 100%;
+    align-content: center;
+    padding: 5px 0 0 5px;
+    
+}
+.btn-group{
+    background-color: #3d16d8;
+    color: white;
+    width: 45%;
+    font-size: 20px;
+    border-radius: 3px;
+    opacity: 50%;
+}
+.btn-group:hover{
+    color: yellow;
+    background-color: tomato;
+}
+
+.search{
+    height: 5%;
+    box-sizing: border-box;
+    margin: 0 20px;
+}
+#temperature{
+    width: 100%;
+    left: 10%;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+}
+.cool{
+    color:  aqua;    
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQj4-sO4iP0jteeQ1kevRvTDUis2SVSzibqzDEVKn89O9aRWU1J&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.normal{
+    color:gold;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRwY4RWu_T0lrKF9kgll64OqDzyCecNeumQSDE0b2xzKbmBfPqC&usqp=CAU");
+     background-repeat: no-repeat;
+    background-size: cover;
+    }
+.hot{
+    color: red;
+    background-image: url(' https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ8k6-KcAsKS582Ke4gkHXQVAH3w8LNXTG3B2INMXGU00F6ZFGo&usqp=CAU');
+     background-repeat: no-repeat;
+    background-size: cover;
+    }
